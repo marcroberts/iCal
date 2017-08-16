@@ -264,7 +264,7 @@ class Calendar extends Component
         }
 
         if ($this->name) {
-            $propertyBag->set('X-WR-CALNAME', $this->name);
+            $propertyBag->set('X-WR-CALNAME;VALUE=TEXT', $this->name);
         }
 
         if ($this->description) {
